@@ -101,3 +101,69 @@ nav{
   flex: 1;
   text-align: center;
 }
+.char-layout {
+   display: flex; 
+   justify-content: center; 
+   align-items: center; 
+   margin-top: 40px; 
+  }  
+.char-video {
+     width: 250px; 
+     border-radius: 50px; 
+     margin-right: 300px;
+  }  
+  .char-image-wrapper {
+  position: relative;
+  display: inline-block; 
+} 
+.char-image-wrapper img {
+  width: 300px; 
+  border-radius: 10px; 
+}  
+
+.char-description { 
+  max-width: 300px; 
+  margin-right: 220px;
+  font-size: 1.1rem; 
+}
+.char-layout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.char-video iframe {
+    width: 300px;
+    height: 170px;
+    border-radius: 10px;
+}
+
+.char-image-wrapper {
+    position: relative;
+
+    display: inline-block;
+}
+
+.char-image-wrapper img {
+    width: 300px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+.char-description {
+    max-width: 300px;
+    font-size: 1.1rem;
+} 
+.prix {
+  font-size: x-large;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav-acheter .nav-link {
+  background-color: rgb(18, 18, 31);
+  color: #ffffff;
+  padding: 6px 12px;
+  width: 21%;
+  border-radius: 50px;
+}
